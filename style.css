@@ -10,7 +10,7 @@ body {
 }
 
 .o-nas{
-    background: url(/Assets/Images/hq-image.jpg);
+    background: url(Assets/Images/hq-image.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -218,13 +218,13 @@ footer {
     margin: 10px 0px 10px 10px;
   }
   .background{
-    background: url(/Assets/Images/orange-phone.jpg);
+    background: url(Assets/Images/orange-phone.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
 /*Products page*/
 .background-products{
-  background: url(/Assets/Images/background-products.jpg);
+  background: url(Assets/Images/background-products.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
