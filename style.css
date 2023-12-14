@@ -7,6 +7,8 @@ body {
     padding: 0;
     box-sizing: border-box;
     /*background-color: hsl(210, 46%, 95%);*/
+    min-width: 100%;
+    overflow-x: hidden;
 }
 
 .o-nas{
@@ -136,7 +138,7 @@ footer {
     text-align: center;
     padding: 1em 0;
     margin-top:15px;
-    position: absolute;
+    position: relative;
     width: 100%;
     bottom: 0px;
 }
@@ -292,14 +294,47 @@ footer {
   font-size: 30px;
   color: #f49100;
 }
+.main-title{
+  font-weight: 700;
+  font-size: 40px;
+}
+@media screen and (min-width: 1401px){
+  .main-text-ver2{
+    display: none;
+  }
+  .pieczatka{
+    display: none;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .main-text-ver1{
+    display: none;
 
-
+  }
+  .main-title{
+    font-size: 45px;
+  }
+  .text{
+    margin-top: 75px;
+  }
+  .main-text-ver2{
+    text-align: justify;
+    line-height: 25px;
+  }
+  .pieczatka_shown{
+    display: none;
+  }
+}
 /* Media queries dla ekranów o szerokości 576px i mniejszej */
 @media screen and (max-width: 576px) {
   header img {
       margin-right: 2rem;
   }
-
+.main-image{
+  max-width: 100%;
+  height: auto;
+  margin-top: 40px
+}
   .container {
       flex-direction: column;
       align-items: center; 
