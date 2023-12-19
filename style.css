@@ -298,6 +298,9 @@ footer {
   font-weight: 700;
   font-size: 40px;
 }
+.certyfikat{
+  margin-top: 40px;
+}
 @media screen and (min-width: 1401px){
   .main-text-ver2{
     display: none;
